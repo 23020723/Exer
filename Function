@@ -1,0 +1,19 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    cout<<"calculate the Euclidean distance between the two points "<<endl;
+    double a,b,c,d,e,f;
+    cout<<"enter x1"<<endl;
+    cin>>a;
+
+    cout<<"enter x2"<<endl;
+    cin>>b;
+    cout<<"enter y1"<<endl;
+    cin>>c;
+    cout<<"enter y2"<<endl;
+    cin>>d;
+    e=(b-a)*(b-a) + (d-c)*(d-c);
+
+cout << sqrt(e);
+}
